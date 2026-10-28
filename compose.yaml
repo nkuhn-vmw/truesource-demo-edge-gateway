@@ -1,0 +1,6 @@
+# Intentionally old images: a TrueSource Viewer demo, do not run.
+services:
+  gateway-proxy:
+    image: nginx:1.21.6
+  rate-limit:
+    image: redis:5.0
